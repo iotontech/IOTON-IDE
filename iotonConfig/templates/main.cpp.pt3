@@ -1,0 +1,9 @@
+    // The main LOOP
+    while (1)
+    {
+        // Add your repeated code here
+        ton.toggleLED(GREEN);
+        wait(1);
+
+    }   // end of main LOOP
+}   // end of main function

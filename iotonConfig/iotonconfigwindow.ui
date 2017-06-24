@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>IotonConfigWindow</class>
+ <widget class="QMainWindow" name="IotonConfigWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>774</width>
+    <height>613</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>ioTon Config</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="iotonConfig.qrc">
+    <normaloff>:/images/icon1.png</normaloff>:/images/icon1.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_pinout">
+       <attribute name="title">
+        <string>Pinagem</string>
+       </attribute>
+       <widget class="QLabel" name="label_pinoutImage">
+        <property name="geometry">
+         <rect>
+          <x>118</x>
+          <y>0</y>
+          <width>508</width>
+          <height>499</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>508</width>
+          <height>499</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>508</width>
+          <height>499</height>
+         </size>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="iotonConfig.qrc">:/images/pins.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_12">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>82</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_11">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>103</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_10">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>124</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_9">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>145</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_8">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>166</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_7">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>187</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_6">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>208</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_5">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>229</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_4">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>250</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_3">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>271</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_2">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>292</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_1">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>313</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_0">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>334</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_13">
+        <property name="geometry">
+         <rect>
+          <x>626</x>
+          <y>82</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_14">
+        <property name="geometry">
+         <rect>
+          <x>626</x>
+          <y>103</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_15">
+        <property name="geometry">
+         <rect>
+          <x>626</x>
+          <y>124</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_16">
+        <property name="geometry">
+         <rect>
+          <x>626</x>
+          <y>145</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_17">
+        <property name="geometry">
+         <rect>
+          <x>626</x>
+          <y>166</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_18">
+        <property name="geometry">
+         <rect>
+          <x>626</x>
+          <y>187</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_19">
+        <property name="geometry">
+         <rect>
+          <x>626</x>
+          <y>208</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_20">
+        <property name="geometry">
+         <rect>
+          <x>626</x>
+          <y>229</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_21">
+        <property name="geometry">
+         <rect>
+          <x>626</x>
+          <y>250</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_22">
+        <property name="geometry">
+         <rect>
+          <x>626</x>
+          <y>271</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_23">
+        <property name="geometry">
+         <rect>
+          <x>626</x>
+          <y>292</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_24">
+        <property name="geometry">
+         <rect>
+          <x>626</x>
+          <y>313</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_25">
+        <property name="geometry">
+         <rect>
+          <x>626</x>
+          <y>334</y>
+          <width>115</width>
+          <height>19</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QProgressBar" name="progressBar">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>380</y>
+          <width>291</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="textVisible">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <zorder>label_pinoutImage</zorder>
+       <zorder>comboBox_6</zorder>
+       <zorder>comboBox_25</zorder>
+       <zorder>comboBox_9</zorder>
+       <zorder>comboBox_2</zorder>
+       <zorder>comboBox_19</zorder>
+       <zorder>comboBox_23</zorder>
+       <zorder>comboBox_4</zorder>
+       <zorder>comboBox_5</zorder>
+       <zorder>comboBox_10</zorder>
+       <zorder>comboBox_18</zorder>
+       <zorder>comboBox_12</zorder>
+       <zorder>comboBox_1</zorder>
+       <zorder>comboBox_20</zorder>
+       <zorder>comboBox_3</zorder>
+       <zorder>comboBox_11</zorder>
+       <zorder>comboBox_0</zorder>
+       <zorder>comboBox_22</zorder>
+       <zorder>comboBox_7</zorder>
+       <zorder>comboBox_24</zorder>
+       <zorder>comboBox_17</zorder>
+       <zorder>comboBox_21</zorder>
+       <zorder>comboBox_16</zorder>
+       <zorder>comboBox_8</zorder>
+       <zorder>comboBox_13</zorder>
+       <zorder>comboBox_15</zorder>
+       <zorder>comboBox_14</zorder>
+       <zorder>progressBar</zorder>
+      </widget>
+      <widget class="QWidget" name="tab_advanced">
+       <attribute name="title">
+        <string> Avançado </string>
+       </attribute>
+       <widget class="QLabel" name="label_advancedImage">
+        <property name="geometry">
+         <rect>
+          <x>61</x>
+          <y>262</y>
+          <width>215</width>
+          <height>211</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="iotonConfig.qrc">:/images/pins.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_advanced">
+        <property name="geometry">
+         <rect>
+          <x>87</x>
+          <y>49</y>
+          <width>185</width>
+          <height>23</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_advanced_name">
+        <property name="geometry">
+         <rect>
+          <x>142</x>
+          <y>100</y>
+          <width>130</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="maxLength">
+         <number>20</number>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_advanced_name">
+        <property name="geometry">
+         <rect>
+          <x>-27</x>
+          <y>99</y>
+          <width>161</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_advanced_1">
+        <property name="geometry">
+         <rect>
+          <x>142</x>
+          <y>129</y>
+          <width>130</width>
+          <height>23</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_advanced_1">
+        <property name="geometry">
+         <rect>
+          <x>142</x>
+          <y>129</y>
+          <width>130</width>
+          <height>23</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_advanced_1">
+        <property name="geometry">
+         <rect>
+          <x>142</x>
+          <y>131</y>
+          <width>20</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_advanced_2">
+        <property name="geometry">
+         <rect>
+          <x>142</x>
+          <y>158</y>
+          <width>130</width>
+          <height>23</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_advanced_2">
+        <property name="geometry">
+         <rect>
+          <x>142</x>
+          <y>218</y>
+          <width>20</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_advanced_2">
+        <property name="geometry">
+         <rect>
+          <x>142</x>
+          <y>158</y>
+          <width>130</width>
+          <height>23</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_advanced_3">
+        <property name="geometry">
+         <rect>
+          <x>142</x>
+          <y>187</y>
+          <width>130</width>
+          <height>23</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_advanced_4">
+        <property name="geometry">
+         <rect>
+          <x>142</x>
+          <y>216</y>
+          <width>130</width>
+          <height>23</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_advanced_1">
+        <property name="geometry">
+         <rect>
+          <x>-27</x>
+          <y>128</y>
+          <width>161</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_advanced_2">
+        <property name="geometry">
+         <rect>
+          <x>-27</x>
+          <y>157</y>
+          <width>161</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_advanced_3">
+        <property name="geometry">
+         <rect>
+          <x>-27</x>
+          <y>186</y>
+          <width>161</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_advanced_4">
+        <property name="geometry">
+         <rect>
+          <x>-27</x>
+          <y>215</y>
+          <width>161</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QTreeWidget" name="treeWidget">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>50</y>
+          <width>381</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="selectionMode">
+         <enum>QAbstractItemView::ContiguousSelection</enum>
+        </property>
+        <property name="animated">
+         <bool>true</bool>
+        </property>
+        <column>
+         <property name="text">
+          <string>Resumo - Configuração dos Pinos</string>
+         </property>
+         <property name="textAlignment">
+          <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+         </property>
+        </column>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_expand">
+        <property name="geometry">
+         <rect>
+          <x>344</x>
+          <y>54</y>
+          <width>22</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <zorder>lineEdit_advanced_name</zorder>
+       <zorder>label_advanced_name</zorder>
+       <zorder>lineEdit_advanced_1</zorder>
+       <zorder>comboBox_advanced</zorder>
+       <zorder>lineEdit_advanced_2</zorder>
+       <zorder>comboBox_advanced_1</zorder>
+       <zorder>comboBox_advanced_2</zorder>
+       <zorder>comboBox_advanced_3</zorder>
+       <zorder>comboBox_advanced_4</zorder>
+       <zorder>label_advanced_1</zorder>
+       <zorder>label_advanced_2</zorder>
+       <zorder>label_advanced_3</zorder>
+       <zorder>label_advanced_4</zorder>
+       <zorder>treeWidget</zorder>
+       <zorder>checkBox_advanced_1</zorder>
+       <zorder>checkBox_advanced_2</zorder>
+       <zorder>label_advancedImage</zorder>
+       <zorder>radioButton_expand</zorder>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_createProject">
+      <property name="text">
+       <string>Criar Projeto</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>774</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+    <addaction name="actionOpen_project"/>
+    <addaction name="actionSave_project"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Ajuda</string>
+    </property>
+    <addaction name="actionPinout_Guide"/>
+    <addaction name="actionManual_TON"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout_Ioton_Config"/>
+   </widget>
+   <widget class="QMenu" name="menuEditar">
+    <property name="title">
+     <string>Editar</string>
+    </property>
+    <addaction name="actionGenerate_Examples"/>
+    <addaction name="actionClear_Pins"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEditar"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionSave_project">
+   <property name="text">
+    <string>Salvar...</string>
+   </property>
+   <property name="toolTip">
+    <string>Salvar Configurações</string>
+   </property>
+  </action>
+  <action name="actionOpen_project">
+   <property name="text">
+    <string>Abrir...</string>
+   </property>
+   <property name="toolTip">
+    <string>Abrir Configurações</string>
+   </property>
+  </action>
+  <action name="actionAbout_Ioton_Config">
+   <property name="text">
+    <string>Sobre ioTon Config</string>
+   </property>
+   <property name="toolTip">
+    <string>Sobre ioTon Config</string>
+   </property>
+  </action>
+  <action name="actionClear_Pins">
+   <property name="text">
+    <string>Limpar Pinos</string>
+   </property>
+  </action>
+  <action name="actionGenerate_Examples">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Gerar Exemplos</string>
+   </property>
+   <property name="toolTip">
+    <string>Gerar Exemplos</string>
+   </property>
+  </action>
+  <action name="actionManual_TON">
+   <property name="text">
+    <string>Manual - Placa TON</string>
+   </property>
+  </action>
+  <action name="actionPinout_Guide">
+   <property name="text">
+    <string>Guia da Pinagem</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>comboBox_12</tabstop>
+  <tabstop>comboBox_11</tabstop>
+  <tabstop>comboBox_10</tabstop>
+  <tabstop>comboBox_9</tabstop>
+  <tabstop>comboBox_8</tabstop>
+  <tabstop>comboBox_7</tabstop>
+  <tabstop>comboBox_6</tabstop>
+  <tabstop>comboBox_5</tabstop>
+  <tabstop>comboBox_4</tabstop>
+  <tabstop>comboBox_3</tabstop>
+  <tabstop>comboBox_2</tabstop>
+  <tabstop>comboBox_1</tabstop>
+  <tabstop>comboBox_0</tabstop>
+  <tabstop>comboBox_13</tabstop>
+  <tabstop>comboBox_14</tabstop>
+  <tabstop>comboBox_15</tabstop>
+  <tabstop>comboBox_16</tabstop>
+  <tabstop>comboBox_17</tabstop>
+  <tabstop>comboBox_18</tabstop>
+  <tabstop>comboBox_19</tabstop>
+  <tabstop>comboBox_20</tabstop>
+  <tabstop>comboBox_21</tabstop>
+  <tabstop>comboBox_22</tabstop>
+  <tabstop>comboBox_23</tabstop>
+  <tabstop>comboBox_24</tabstop>
+  <tabstop>comboBox_25</tabstop>
+  <tabstop>comboBox_advanced</tabstop>
+  <tabstop>lineEdit_advanced_name</tabstop>
+  <tabstop>comboBox_advanced_1</tabstop>
+  <tabstop>lineEdit_advanced_1</tabstop>
+  <tabstop>checkBox_advanced_1</tabstop>
+  <tabstop>lineEdit_advanced_2</tabstop>
+  <tabstop>checkBox_advanced_2</tabstop>
+  <tabstop>comboBox_advanced_2</tabstop>
+  <tabstop>comboBox_advanced_3</tabstop>
+  <tabstop>comboBox_advanced_4</tabstop>
+  <tabstop>treeWidget</tabstop>
+  <tabstop>radioButton_expand</tabstop>
+  <tabstop>pushButton_createProject</tabstop>
+ </tabstops>
+ <resources>
+  <include location="iotonConfig.qrc"/>
+ </resources>
+ <connections/>
+</ui>
